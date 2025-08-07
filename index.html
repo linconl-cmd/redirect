@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Obrigado pelo Pagamento | Digital Solutions - LC Flix</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f1a2f, #1a2b4a);
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: #121e33;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      max-width: 600px;
+      width: 100%;
+      padding: 40px;
+      text-align: center;
+      border: 1px solid #2c3e5f;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+      color: #4fc3f7;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo i {
+      color: #ff9800;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #ffffff;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #b0bec5;
+      margin-bottom: 30px;
+    }
+
+    .success-icon {
+      font-size: 70px;
+      color: #4caf50;
+      margin-bottom: 20px;
+    }
+
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 25px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background-color: #4fc3f7;
+      color: #0f1a2f;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #29b6f6;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: #b0bec5;
+      border: 2px solid #4fc3f7;
+    }
+
+    .btn-secondary:hover {
+      background-color: rgba(79, 195, 247, 0.1);
+      color: #ffffff;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #78909c;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 30px 20px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      .btn {
+        padding: 12px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo da Empresa -->
+    <div class="logo">
+      <i class="fas fa-cube"></i>
+      <span>Digital Solutions</span>
+    </div>
+
+    <!-- Ícone de sucesso -->
+    <div class="success-icon">
+      <i class="fas fa-check-circle"></i>
+    </div>
+
+    <!-- Título -->
+    <h1>Obrigado pelo seu pagamento!</h1>
+
+    <!-- Mensagem -->
+    <p>
+      Seu pagamento foi processado com sucesso. Agradecemos pela confiança no nosso serviço <strong>LC Flix</strong>.<br>
+      Em breve você receberá um e-mail de confirmação com todos os detalhes.
+    </p>
+
+    <!-- Botões de navegação -->
+    <div class="btn-container">
+      <a href="https://digitalsolutions.com/lc-flix" class="btn btn-primary">
+        <i class="fas fa-home"></i> Voltar para o LC Flix
+      </a>
+      <a href="https://digitalsolutions.com/servicos" class="btn btn-secondary">
+        <i class="fas fa-cogs"></i> Conheça nossos outros serviços
+      </a>
+      <a href="https://digitalsolutions.com/suporte" class="btn btn-secondary">
+        <i class="fas fa-headset"></i> Fale com o Suporte
+      </a>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+      &copy; 2025 Digital Solutions. Todos os direitos reservados. | Setor: LC Flix
+    </div>
+  </div>
+</body>
+</html>
